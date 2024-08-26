@@ -37,10 +37,19 @@ public class Conversions
         }
         if (selection == 2)
         {
-            System.out.println("Enter Farenheit: ");
-            double farenheit = keyboard.nextDouble();
+            System.out.println("Enter Fahrenheit: ");
+            double fahrenheit = keyboard.nextDouble();
             keyboard.nextLine();
-            double celsus = farenheit (-32) * (5.0 / 9.0) ;
+            double celsius = (fahrenheit - 32) * (5.0 / 9.0) ;
+            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celcius");
+            //add the code to ask the user to enter Fahrenheit and then convert to Celsius
+        }
+         if (selection == 3)
+        {
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = feet * (0.3048) ;
             System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celcius");
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
         }
