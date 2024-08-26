@@ -17,6 +17,10 @@ public class Conversions
         System.out.println("4. Meters to Feet");
         System.out.println("5. Ounces to Milliliters");
         System.out.println("6. Milliliters to Ounces");
+        System.out.println("7. Liters to Gallons");
+        System.out.println("8. Gallons to Liters");
+        System.out.println("9. Pounds to Kilograms");
+        System.out.println("10. Kilograms to Pounds");
         //Add 2 more conversions, each both ways, to add choices 7, 8, 9, and 10.
         //You can add even more if you would like.
 
@@ -33,6 +37,11 @@ public class Conversions
         }
         if (selection == 2)
         {
+            System.out.println("Enter Farenheit: ");
+            double farenheit = keyboard.nextDouble();
+            keyboard.nextLine();
+            double celsus = farenheit (-32) * (5.0 / 9.0) ;
+            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celcius");
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
         }
         //add more if statements here.
