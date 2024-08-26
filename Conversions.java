@@ -49,9 +49,57 @@ public class Conversions
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double feet = feet * (0.3048) ;
-            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees celcius");
+            double meters = feet * (0.3048) ;
+            System.out.println(feet + " feet is " + meters + " meters");
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
+        }
+        if (selection == 4)
+        {
+            System.out.println("Enter Meters: ");
+            double meters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = meters / (0.3048) ;
+            System.out.println(meters + " meters is " + feet + " feet");
+        }
+        if (selection 5)
+        {
+            System.out.println("Enter Ounces: ");
+            double ounces = keyboard.nextDouble();
+            keyboard.nextLine();
+            double milliliters = ounces / (0.033814) ;
+            System.out.println(ounces + " ounces is " + milliliters + " milliliters");
+        }
+        if (selection == 6)
+        {
+            System.out.println("Enter Milliliters: ");
+            double milliliters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double ounces = milliliters * (0.033814) ;
+            System.out.println(milliliters + " milliliters is " + ounces + " milliliters");
+        }
+         if (selection == 7)
+        {
+            System.out.println("Enter Liters: ");
+            double liters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double gallons = liters * (0.264172) ;
+            System.out.println(liters + " liters is " + gallons + " gallons");
+        }
+         if (selection == 8)
+        {
+            System.out.println("Enter Gallons: ");
+            double gallons = keyboard.nextDouble();
+            keyboard.nextLine();
+            double liters = gallons / (0.264172) ;
+            System.out.println(gallons + " gallons is " + liters + " liters");
+        }
+          if (selection == 9)
+        {
+            System.out.println("Enter Pounds: ");
+            double pounds = keyboard.nextDouble();
+            keyboard.nextLine();
+            double liters = gallons / (0.264172) ;
+            System.out.println(gallons + " gallons is " + liters + " liters");
         }
         //add more if statements here.
     }
