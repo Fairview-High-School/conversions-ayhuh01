@@ -61,7 +61,7 @@ public class Conversions
             double feet = meters / (0.3048) ;
             System.out.println(meters + " meters is " + feet + " feet");
         }
-        if (selection 5)
+        if (selection == 5)
         {
             System.out.println("Enter Ounces: ");
             double ounces = keyboard.nextDouble();
