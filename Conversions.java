@@ -98,8 +98,16 @@ public class Conversions
             System.out.println("Enter Pounds: ");
             double pounds = keyboard.nextDouble();
             keyboard.nextLine();
-            double liters = gallons / (0.264172) ;
-            System.out.println(gallons + " gallons is " + liters + " liters");
+            double kilograms = pounds / (2.2) ;
+            System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+        }
+          if (selection == 10)
+        {
+            System.out.println("Enter Kilograms: ");
+            double kilograms = keyboard.nextDouble();
+            keyboard.nextLine();
+            double pounds = kilograms * (2.2) ;
+            System.out.println(kilograms + " kilograms is " + pounds + " pounds");
         }
         //add more if statements here.
     }
